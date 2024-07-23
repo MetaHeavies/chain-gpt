@@ -10,7 +10,7 @@ function buildModels() {
     const API_KEY = process.env.OPENAI_API_KEY;
 
     const openai = new OpenAI({
-      apiKey: "Your Open API Key"
+      apiKey: API_KEY
     });
 
     return openai;
