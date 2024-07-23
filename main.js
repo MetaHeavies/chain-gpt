@@ -13,7 +13,7 @@ function buildModels() {
       apiKey: API_KEY
     });
 
-    return openai;
+    return openai; 
 }
 
 async function llm(model, promptText) {
